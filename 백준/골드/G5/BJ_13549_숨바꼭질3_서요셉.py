@@ -24,4 +24,5 @@ def bfs(n):
             visited[x+1] = visited[x] + 1
             q.append(x+1)
 
+
 bfs(n)
